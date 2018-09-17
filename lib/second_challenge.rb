@@ -7,7 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-
+  my_array = []
+  groceries.each do ||
   
-
+  end 
 end
