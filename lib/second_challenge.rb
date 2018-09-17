@@ -8,7 +8,8 @@ def second_challenge
 
   #code your solution here!
   my_array = []
-  groceries.each do ||
-  
+  groceries.each do |item|
+    my_array << item.value
   end 
+  my_array
 end
