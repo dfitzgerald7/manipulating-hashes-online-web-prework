@@ -7,9 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  #my_array = []
-  #groceries.each do |item|
-    my_array << item.value
-  #end 
+  my_array = []
+  groceries.each do |item, list|
+    my_array << list 
+  end 
   my_array
 end
